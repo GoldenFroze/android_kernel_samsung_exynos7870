@@ -19,7 +19,7 @@
 # Main Dir
 CR_DIR=$(pwd)
 # Define toolchan path
-CR_TC=~/Android/Toolchains/gcc-arm-9.2-aarch64-linux-gnu/bin/aarch64-none-linux-gnu-
+CR_TC=~/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-
 # Define proper arch and dir for dts files
 CR_DTS=arch/arm64/boot/dts
 CR_DTS_TREBLE=arch/arm64/boot/exynos7870_Treble.dtsi
@@ -39,8 +39,8 @@ CR_KERNEL=$CR_DIR/arch/arm64/boot/Image
 # Compiled dtb by dtbtool
 CR_DTB=$CR_DIR/boot.img-dtb
 # Kernel Name and Version
-CR_VERSION=RC2
-CR_NAME=AresKernel
+CR_VERSION=R1
+CR_NAME=ChoChuQ
 # Thread count
 CR_JOBS=$(nproc --ignore=1)
 # Target android version and platform (7/n/8/o/9/p)
